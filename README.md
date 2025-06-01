@@ -122,3 +122,8 @@ This repository is adapted from https://github.com/Etimo/diamonds2
 Some code in this repository is adjusted to fix some issues in the original repository and to adapt to the requirements of Algorithm Strategies course (IF2211), Informatics Undergraduate Program, ITB.
 
 ©️ All rights and credits reserved to [Etimo](https://github.com/Etimo)
+
+
+
+AUTHOR BOT SIFU DAN BOT MASTER ( DAFFA , FEBRI , OLA )
+From SKIBIDI TEAM
