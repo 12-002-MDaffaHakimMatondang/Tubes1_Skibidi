@@ -1,3 +1,62 @@
+Tubes1_Skibidi
+📋 Deskripsi
+Tugas Besar 1 - Strategi Algoritma yang mengimplementasikan algoritma greedy untuk menyelesaikan permasalahan optimasi. Proyek ini menggunakan pendekatan greedy untuk mencari solusi optimal lokal dalam setiap langkah dengan harapan mencapai solusi optimal global.
+👥 Anggota Kelompok
+
+M. Daffa Hakim Matondang - NIM: 123140002
+Febrian Valentino Nugroho - NIM: 123140034
+Ola Anggela Rosita - NIM: 123140042
+
+
+Konsep Dasar
+Algoritma greedy adalah paradigma algoritma yang membuat pilihan optimal lokal pada setiap langkah dengan harapan menemukan optimum global. Algoritma ini bekerja dengan prinsip:
+
+Greedy Choice: Selalu memilih pilihan terbaik yang tersedia saat ini
+Optimal Substructure: Solusi optimal mengandung solusi optimal dari submasalah
+No Backtracking: Tidak pernah mengubah keputusan yang sudah dibuat
+
+Implementasi dalam Proyek
+Proyek ini mengimplementasikan algoritma greedy untuk optimasi pergerakan bot dalam game diamond collection. Bot menggunakan strategi greedy untuk memilih target diamond dan rute pergerakan yang optimal.
+Lokasi Implementasi Greedy:
+
+Pemilihan Target Diamond (search_optimal method)
+
+Greedy by: Rasio nilai diamond terhadap jarak (points/distance)
+Fungsi evaluasi: evaluation = (total_points/(total_distance + last_goal_to_base))
+Bot selalu memilih kombinasi diamond yang memberikan rasio nilai tertinggi per jarak tempuh
+
+
+Pemilihan Arah Gerak (get_direction method)
+
+Greedy by: Jarak Euclidean terpendek ke target
+Kriteria: euclidean = sqrt((new_x - dest.x)**2 + (new_y - dest.y)**2)
+Bot selalu bergerak ke arah yang mengurangi jarak ke target secara maksimal
+
+
+Pemilihan Rute Teleport (distance method)
+
+Greedy by: Jarak Manhattan terpendek (dengan/tanpa teleport)
+Kriteria: Membandingkan jarak langsung vs melalui teleport, pilih yang terpendek
+Bot selalu memilih rute dengan total jarak minimum
+
+
+Strategi Combat (_handle_combat method)
+
+Greedy by: Prioritas waktu tersisa (milliseconds_left)
+Bot menyerang lawan yang memiliki waktu tersisa lebih sedikit
+
+//CARA BUKA PATH FILE BOT NYA DI CMD 
+Yaitu jika windows kalian jangan lupa masuk ke file explorer lalu masuk ke folder Tubes1_Skibidi klik klik sampe ke folder src jika sudah sampai di folder src barulah kalian masukkan pemanggilan botnya
+cth:
+start cmd /c "python main.py --logic Sifu --email=test2@email.com --name=stima2 --password=123458 --team etimo"
+start cmd /c "python main.py --logic Sifu --email=test40@email.com --name=stima4 --password=123460 --team etimo"
+start cmd /c "python main.py --logic Master --email=test4394@email.com --name=stima13 --password=123460 --team etimo"
+start cmd /c "python main.py --logic Master --email=test420@email.com --name=stima6 --password=123460 --team etimo"
+enter di CMD. SELAMAT MENCOBAA
+
+
+//GAME ENGINE BY ETIMO DIAMONDS
+//CARA RUN PROGRAM SESUAI SPEK TUBES 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 # 💎 Etimo Diamonds 2
