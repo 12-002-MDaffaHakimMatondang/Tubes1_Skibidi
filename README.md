@@ -1,4 +1,4 @@
-Tubes1_Skibidi
+Tubes1_Skibidi       LINK YOUTUBE : https://youtu.be/AC98ZJM4ghM
 📋 Deskripsi
 Tugas Besar 1 - Strategi Algoritma yang mengimplementasikan algoritma greedy untuk menyelesaikan permasalahan optimasi. Proyek ini menggunakan pendekatan greedy untuk mencari solusi optimal lokal dalam setiap langkah dengan harapan mencapai solusi optimal global.
 👥 Anggota Kelompok
